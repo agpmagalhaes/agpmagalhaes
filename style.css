@@ -98,6 +98,8 @@
 .presentation p{
     width: 50%;
     padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6em;
 }
 
 .presentation img{
@@ -131,6 +133,7 @@ main h2{
     padding: 20px;
     margin-bottom: 10px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 .projects-list{
@@ -150,6 +153,7 @@ main h2{
     height: 250px;
     text-align: center;
     box-shadow: 2px 2px 2px #ccc;
+    font-family: 'Poppins', sans-serif;
 }
 
 .projects-list img{
@@ -206,18 +210,71 @@ footer p{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding: 60px;
+}
+
+.about-img{
+    width: 300px;
+    border-radius: 50%;
+    margin: 40px;
 }
 
 .about-paragraph{
     display: block;
+    padding: 20px;
+    font-size: 1.2em;
+    
 }
 
-.about-perfil{
-    width: 250px;
-    border-radius: 50%;
+.about-paragraph p{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6em;
 }
 
-.about p{
-    width: 45%;
+@media (max-width:768px){
+    .about{
+        flex-direction: column;
+    }
+
+    .about img{
+        max-width: 250px;
+        margin-right: 0;
+
+    }
+
 }
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    flex-direction: column;
+    
+}
+
+.media-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+    padding: 30px;
+    
+    
+}
+
+.media-links img{
+    width: 100px;
+}
+
+.media-links li{
+    margin-bottom: 30px;
+}
+
+.media-links li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6em;
+}
+
