@@ -1,0 +1,60 @@
+.container{
+    display: block;
+    margin: 60px auto;
+}
+
+h1{
+    width: 85%;
+    margin: 60px auto;
+    text-align: center;
+    
+}
+
+img{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.container-coment{
+    width: 85%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.coment{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.coment p{
+    padding: 0 20px;
+    font-size: 1.6em;
+    text-align: justify;
+    margin: 10px auto;
+    
+}
+
+button{
+    padding: 5px 30px;
+    background-color: #4185f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 30px auto;
+}
+
+button:hover{
+    background-color: #1063a7;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    transform: translateY(1px);
+}

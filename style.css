@@ -109,6 +109,12 @@
     border-radius: 50%;
 }
 
+#formCad{
+    width: 250px;
+    height: auto;
+    margin-left: 0;
+}
+
 @media (max-width:768px){
     .presentation{
         flex-direction: column;
@@ -278,3 +284,6 @@ footer p{
     font-size: 1.6em;
 }
 
+#formCad-caixa{
+    background-color: rgb(255, 217, 151);
+}
